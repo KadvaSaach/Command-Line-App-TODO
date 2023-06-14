@@ -53,3 +53,5 @@ htmlcov/
 
 # Pipenv
 .Pipfile.lock
+
+*.db
