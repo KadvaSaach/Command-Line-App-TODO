@@ -7,7 +7,7 @@ This is a simple command-line todo application built with Python. It allows you 
 1. Clone the repository:
 
    ```shell
-   https://github.com/KadvaSaach/Command-Line-App-TODO.git
+   git clone https://github.com/KadvaSaach/Command-Line-App-TODO.git
 
 2. Change into the project directory:
  
