@@ -48,7 +48,7 @@ def delete_todo(position):
 
 def change_position(old_position: int, new_position:int, commit = True):
     c.execute('UPDATE todos  SET position=:position_new WHERE position=:position_old',
-              {'position':old_position, 'position_new':new_position})
+              {'position_old':old_position, 'position_new':new_position})
     
     if commit:
         conn.commit()
